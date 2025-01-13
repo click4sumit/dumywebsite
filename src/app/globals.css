@@ -31,3 +31,212 @@ body {
     text-wrap: balance;
   }
 }
+
+.font_style{
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  
+}
+
+.text_shadow{
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+}
+
+.hero-banner-buttons{position:absolute; width:70%; left:15%; display:flex; align-items:center; justify-content:center; top:200px}
+
+.slide_width {
+  width: 980px;
+  height: 505px;
+  margin:0 6px;
+  opacity: .3
+}
+
+.wide-slider .slick-slide.slick-active .slide_width{opacity:1}
+
+.wide-slider .slick-dots li button:before{
+  font-size: 10px;
+}
+
+.wide-slider .slick-prev:before,
+.wide-slider .slick-next:before {
+  font-size: 24px;
+}
+
+.wide-slider .slick-prev {
+  left: 15px;
+  z-index: 1;
+}
+
+.wide-slider .slick-next {
+  right: 15px;
+  z-index: 1;
+}
+
+/* ********iphone slick********** */
+
+.iphone_slide_width {
+  width: 800px;
+  height: 505px;
+  margin:0 0px;
+  opacity: .3
+}
+
+.iphone_New_Slide_width_01 {
+  width: 149px;
+  height: 339px;
+  margin:0 0px;
+  opacity: .3
+}
+.iphone_New_Slide_width_02 {
+  width: 80px;
+  height: 339px;
+  margin:0 0px;
+  opacity: .3
+}
+
+.iphone_wide-slider .slick-slide.slick-active .iphone_slide_width{opacity:1}
+
+.iphone_wide-slider .slick-prev:before,
+.iphone_wide-slider .slick-next:before {
+  font-size: 48px;
+  color: rgb(58, 64, 70);
+  }
+
+.iphone_wide-slider .slick-prev {
+  left: 75px;
+  z-index: 1;
+  top: 250px;
+}
+
+.iphone_wide-slider .slick-next {
+  right: 100px;
+  z-index: 1;
+  top: 250px;
+}
+
+.lucide_icone {
+  bottom: 10px;
+  left: 5px;
+  position: relative;
+}
+
+.sticky_image {
+    height: 55px;
+    width: 55px;
+    border-radius: 100%;
+    top: 500px;
+    left: 1260px;
+    z-index: 0;
+}
+@media (max-width: 500px){
+  .iphone_slide_width {
+    width: 300px;
+    height: 200px;
+    opacity: .3;
+  }
+  .image03{
+    width: 300px;
+  }
+  .image02{
+    width: 124px; 
+  }
+  .iphone_wide-slider .slick-dots{bottom:0px; position:relative;}
+  .image04{
+    width: 150px;
+    height: 300px;
+  }
+
+}
+
+/* ********************************************************************************************************************************* */
+.footer_text_style {
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.footer-text-color{
+  color: rgba(0, 0, 0, 0.56); 
+}
+
+.foot_note{
+  color: rgba(0, 102, 204)
+}
+
+.footer-links a{display:flex; position:relative; align-items:center; justify-content:center;}
+.footer-links a:after{content:''; width:1px; height:10px; display:block; margin-left:10px; background-color:#000;}
+.footer-links a:last-child:after{display:none}
+
+.submenu{
+  position:absolute; 
+  background-color:#fff; 
+  padding:20px; 
+  box-shadow:2px 0px 5px 0px 15px rgba(0, 0, 0, 0.2); 
+  width:0; 
+  border-radius:0px; 
+  top:20px; 
+  opacity:0;
+  transform:translateY(20px);
+  height:0;
+  left:100px;
+  transition:.3s all ease-in-out; 
+  visibility:hidden;
+}
+
+.Chevron_Left {
+  position: absolute;
+  right: 330px;
+  top: 8px;
+}
+
+.promo-block{top: -150px; transition:.4s all ease-in-out; background-color:#fff; border-bottom: 10px;}
+.promo-block.show{top:0;}
+
+@media (min-width: 768px){
+
+.main-navigation .level-0:hover .submenu{
+  opacity:1;
+  transform:translateY(25px);
+  height:500px;
+  width:100%;
+  left:0;
+  visibility:visible;
+}
+}
+
+@media (max-width: 500px){
+  .hero-banner-buttons{
+    top:260px; 
+  }
+  .banner_height{
+    height: 80vh;
+  }
+  
+  .slide_width {
+  width: 260px;
+  height: 500px;
+  margin:0 6px;
+  opacity: .3
+}
+
+.main-navigation{transition: .2s all ease-in-out;
+  height: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: black;
+  z-index: 999;
+  margin: 0;
+  left: 0;
+}
+.main-navigation.shown{height:100vh; padding:20px}
+.main-header{position:relative; z-index:9999;}
+
+.submenu.shown{width: 100%;
+  opacity: 1;
+  visibility: visible;
+  height: auto;
+  top: 30px;
+  left: 0;
+  background-color: black;
+}
+  
+}
