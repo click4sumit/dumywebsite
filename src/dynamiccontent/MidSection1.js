@@ -183,7 +183,7 @@ const MidSection1 = (props) => {
 
             <div className='container mx-auto mt-10'>
                 <div className='text-center'>
-                    <p className='text-4xl font-semibold py-8'>What's in the Box</p>
+                    <p className='text-4xl font-semibold py-8'>{`What's in the Box`}</p>
                 </div>
                 
                 <IphoneNewSlick newSlidesImg={props.newSlidesImg}/>

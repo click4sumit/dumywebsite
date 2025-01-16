@@ -177,7 +177,7 @@ const RightSideFunction = (props) => {
                             <div className='flex items-center justify-between md:px-2 px-5 md:px-3 py-4'>
                                 <div className='flex flex-col items-start justify-start' >
                                     <p className='text-lg md:text-sm py-1 font-semibold'>iPhone 14</p>
-                                    <p className='text-xs md:text-xs py-0'>15.40 cm (6.1") display</p>
+                                    <p className='text-xs md:text-xs py-0'>{`15.40 cm (6.1") display`}</p>
                                 </div>
                                 <div className='text-xs md:text-xs'>
                                     <p >From ₹10933.00/mo.</p>
@@ -214,7 +214,7 @@ const RightSideFunction = (props) => {
                             <div className='flex items-center justify-between md:px-2 px-5 md:px-3 py-4'>
                                 <div className='flex flex-col items-start justify-start'>
                                     <p className='text-lg md:text-sm py-1 font-semibold'>iPhone 14 Plus</p>
-                                    <p className='text-xs md:text-xs py-0'>16.50 cm (6.7") display</p>
+                                    <p className='text-xs md:text-xs py-0'>{`16.50 cm (6.7") display`}</p>
                                 </div>
                                 <div className='text-xs md:text-xs'>
                                     <p >From ₹12600.00/mo.</p>
@@ -392,7 +392,7 @@ const RightSideFunction = (props) => {
                                     <p className='font-medium'>How does trade-in work?</p>
                                     <LucideCirclePlus className='lucide_icone pb-0'  size={15}/>
                                 </div>
-                                <p className='text-xs text-wrap'>We'll help you exchange your eligible device for instant credit towards your new iPhone. See the step-by-step process.</p>
+                                <p className='text-xs text-wrap'>{`We'll help you exchange your eligible device for instant credit towards your new iPhone. See the step-by-step process.`}</p>
                             </div>
                         </div>         
                     </div>

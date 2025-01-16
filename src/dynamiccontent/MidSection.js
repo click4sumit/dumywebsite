@@ -202,7 +202,7 @@ const MidSection = (props) => {
                                             <p>How does trade-in work?</p>
                                             <LucideCirclePlus className='lucide_icone pb-0'  size={15}/>
                                         </div>
-                                        <p className='text-xs text-wrap'>We'll help you exchange your eligible device for instant credit towards your new iPhone. See the step-by-step process.</p>
+                                        <p className='text-xs text-wrap'>{`We'll help you exchange your eligible device for instant credit towards your new iPhone. See the step-by-step process.`}</p>
                                     </div>
                                 </div>         
                             </div>
@@ -247,7 +247,7 @@ const MidSection = (props) => {
                                         <p className='font-medium'>How does trade-in work?</p>
                                         <LucideCirclePlus className='lucide_icone pb-0'  size={15}/>
                                     </div>
-                                    <p className='text-xs text-wrap'>We'll help you exchange your eligible device for instant credit towards your new iPhone. See the step-by-step process.</p>
+                                    <p className='text-xs text-wrap'>{`We'll help you exchange your eligible device for instant credit towards your new iPhone. See the step-by-step process.`}</p>
                                 </div>
                             </div>         
                         </div>
