@@ -6,7 +6,7 @@ import IphoneSlick from '@/carousel/IphoneSlick';
 import IphoneNewSlick from '@/carousel/IphoneNewSlick';
 
 
-const OnScrollEvent = () => {
+function OnScrollEvent(){
 
     const [displayPromo, setDisplayPromo] = useState(false);
    
